@@ -386,7 +386,7 @@ footer
         clear: both; 
         height: 150px;
         padding: 0;
-        
+
     }
 
     hr {
@@ -434,6 +434,18 @@ footer
 
     }
 
+    #photos {
+        column-count: 3;
+         
+    }
+
 
     
+}
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
